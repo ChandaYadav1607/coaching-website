@@ -68,3 +68,48 @@ li {
     padding: 20px;
   }
 }
+
+
+/* Logo */
+.logo {
+  width: 800px;
+  margin-bottom: 20px;
+}
+
+/* Header text */
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Card style */
+.container {
+  background: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Navigation improvement */
+nav {
+  background-color: #1a5276;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+/* Father's Photo */
+.teacher-photo {
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
