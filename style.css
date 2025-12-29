@@ -72,7 +72,9 @@ li {
 
 /* Logo */
 .logo {
-  width: 800px;
+  width: 800px;        /* default for laptop */
+  max-width: 80%;
+  height: auto;
   margin-bottom: 20px;
 }
 
@@ -107,9 +109,34 @@ nav a {
 
 /* Father's Photo */
 .teacher-photo {
-  width: 500px;
+  width: 180px;        /* laptop size */
+  max-width: 70%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+
+  .logo {
+    width: 120px;     /* smaller on phone */
+  }
+
+  .teacher-photo {
+    width: 130px;     /* perfect size on phone */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
