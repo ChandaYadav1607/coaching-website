@@ -72,7 +72,7 @@ li {
 
 /* Logo */
 .logo {
-  width: 400px;        /* default for laptop */
+  width: 500px;        /* default for laptop */
   max-width: 80%;
   height: auto;
   margin-bottom: 20px;
